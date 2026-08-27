@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="logo">My Blog</div>
+
+        <nav>
+            <a href="#" class="active">Home</a>
+            <a href="#articles">Articles</a>
+            <a href="#about">About</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Welcome to My Blog</h1>
+        <p>Read, learn and explore interesting articles.</p>
+    </section>
+
+    <!-- Search and Filter -->
+    <section class="controls">
+
+        <input
+            type="text"
+            id="searchInput"
+            placeholder="Search articles..."
+        >
+
+        <select id="categoryFilter">
+            <option value="all">All Categories</option>
+        </select>
+
+    </section>
+
+    <!-- Articles -->
+    <main id="articles">
+
+        <h2>Latest Articles</h2>
+
+        <div id="articleContainer" class="article-container">
+            <!-- Articles will come here using JavaScript -->
+        </div>
+
+    </main>
+
+    <!-- Article Details -->
+    <section id="articleDetails" class="article-details">
+        <!-- Selected article will appear here -->
+    </section>
+
+    <!-- About -->
+    <section id="about" class="about">
+        <h2>About My Blog</h2>
+        <p>
+            This is a simple blog website created as part of my
+            Web Development task. I built this website using HTML,
+            CSS and JavaScript.
+        </p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 My Blog. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
